@@ -49,12 +49,12 @@ const AddComment=({asin})=> {
                               
                                     ...comment,
                                     comment: e.target.value
+                            }
                                
-                            })
+                            }
                         
-                            </Form.Control>
-                            </Form.Group>
-
+                        </Form.Group>
+                        
                     <Form.Group>
                         <Form.Label>Rating</Form.Label>
                         <Form.Control as="select" value={comment.rate}
